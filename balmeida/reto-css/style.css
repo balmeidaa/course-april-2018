@@ -40,6 +40,7 @@ body{
 
 .main-content{
 	width:100%;
+	max-height: 700px;
 	display:grid;
 	padding: 25px 0px 0px 60px;
 	grid-template-columns: 290px 1fr;
@@ -145,8 +146,7 @@ body{
 	padding: 120px 40px 100px 40px;
 	grid-template-columns: repeat(3,1fr);
 	position: relative;
-	bottom: 100px;
-	z-index: 0;
+	z-index: -1;
 }
 
 .footer__content{
